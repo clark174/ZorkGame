@@ -1,0 +1,808 @@
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: Should probably take that ring, it looks important...<br/>
+Message:take ring:jimmyclark
+ Results: I don't see a ring, maybe I should open the present first..<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:open present:jimmyclark
+ Results: present contains ring, letter<br/>
+Message:take ring:jimmyclark
+ Results: ring added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.<br/>This location contains:<br/>hat<br/>
+Message:go east:jimmyclark
+ Results: You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.<br/>You notice a figure peering at you from a dark corner of the tavern.  If only you had some light...<br/>This location contains:<br/>torch<br/>beer<br/>
+Message:take torch:jimmyclark
+ Results: torch added to inventory.<br/>
+Message:attack nazgul with torch:jimmyclark
+ Results: You charge at the nazgul with the torch, lighting its cloak on fire.  The nazgul shrieks and runs out of the tavern.<br/>
+Message:go south:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>blessing<br/>lembas<br/>
+Message:take blessing:jimmyclark
+ Results: blessing added to inventory.<br/>
+Message:go south:jimmyclark
+ Results: The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.<br/>This location contains:<br/>
+Message:attack henchman with beer:jimmyclark
+ Results: beer is not in inventory.<br/>
+Message:go north:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>lembas<br/>
+Message:go north:jimmyclark
+ Results: You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.<br/>This location contains:<br/>beer<br/>
+Message:take beer:jimmyclark
+ Results: beer added to inventory.<br/>
+Message:go south:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>lembas<br/>
+Message:go south:jimmyclark
+ Results: The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.<br/>This location contains:<br/>
+Message:attack henchman with beer:jimmyclark
+ Results: Knowing you have no hope to kill this thing, you offer it a beer which the henchman gladly accepts, as he has been on his feet all day and was looking for a drink. He takes his beer and walks away, leaving you be.<br/>
+Message:open box:jimmyclark
+ Results: box contains key<br/>
+Message:take key:jimmyclark
+ Results: key added to inventory.<br/>
+Message:open door:jimmyclark
+ Results: door contains <br/>
+Message:go south:jimmyclark
+ Results: You enter the tower and go up the steps until you reach the top.<br/>At the top, you come face to face with Saruman, the white wizard himself. He doesn't intend you to leave the tower alive.<br/>This location contains:<br/>
+Message:take orb:jimmyclark
+ Results: Cannot take orb.<br/>
+Message:attack saruman with blessing:jimmyclark
+ Results: A bright light shoots out and hits Saruman. With a shrill cry, he perishes.<br/>An orb falls out of saruman's cloak.<br/>
+Message:go north:jimmyclark
+ Results: The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: You enter the tower and go up the steps until you reach the top.<br/>This location contains:<br/>orb<br/>
+Message:take orb:jimmyclark
+ Results: orb added to inventory.<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:open present:jimmyclark
+ Results: present contains ring, letter<br/>
+Message:go east:jimmyclark
+ Results: The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.<br/>This location contains:<br/>hat<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: Should probably take that ring, it looks important...<br/>
+Message:take the ring:jimmyclark
+ Results: Cannot take the.<br/>
+Message:take ring:jimmyclark
+ Results: I don't see a ring, maybe I should open the present first..<br/>
+Message:open present:jimmyclark
+ Results: present contains ring, letter<br/>
+Message:read letter:jimmyclark
+ Results: letter not in inventory.<br/>
+Message:take letter:jimmyclark
+ Results: letter added to inventory.<br/>
+Message:read letter:jimmyclark
+ Results: Frodo, I am entrusting you with my most cherished possession, this ring.  It has caused this world great pain and suffering and must be destroyed. I wish you the best of luck on your journey, do not let me down.                                 Welcome to the LOTR Zork game! There is no manual on how to play, as most of the fun is figuring out what commands are included in the game.  To move around however, you use the command "go north" to go north, "go east" to go east, and so on.  Additionally, some of the tougher locations in the game have hints to get you past the location.  Enter "hint" when in a room to get a hint on how to beat the room.<br/>
+Message:take ring:jimmyclark
+ Results: ring added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.<br/>This location contains:<br/>hat<br/>
+Message:take hat:jimmyclark
+ Results: hat added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.<br/>You notice a figure peering at you from a dark corner of the tavern.  If only you had some light...<br/>This location contains:<br/>torch<br/>beer<br/>
+Message:take torch:jimmyclark
+ Results: torch added to inventory.<br/>
+Message:use torch:jimmyclark
+ Results: The room lights up to reveal a nazgul, one of Sauron's most feared servents.  It is blocking the way out of the tavern.<br/>
+Message:hit sauron:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:fight saruon:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:fight sauron:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:fight nazgul:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:hint:jimmyclark
+ Results: There are two hints for this room. One thing that is helpful to do is use the activate (item) command in order to see everyone in the room.  The second hint has to do with the attack (creature) with (item) command.  There is something blocking the tavern, do you know what it is?<br/>
+Message:drink beer:jimmyclark
+ Results: beer not in inventory.<br/>
+Message:take beer:jimmyclark
+ Results: beer added to inventory.<br/>
+Message:attack with torch:jimmyclark
+ Results: Error: Attack command requires four arguments (attack (creature) with (item)).<br/>
+Message:attack nazgul:jimmyclark
+ Results: Error: Attack command requires four arguments (attack (creature) with (item)).<br/>
+Message:attack nazgul with torch:jimmyclark
+ Results: You charge at the nazgul with the torch, lighting its cloak on fire.  The nazgul shrieks and runs out of the tavern.<br/>
+Message:go east:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go north:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go west:jimmyclark
+ Results: The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.<br/>This location contains:<br/>
+Message:go sout:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go south:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>blessing<br/>lembas<br/>
+Message:take blessing:jimmyclark
+ Results: blessing added to inventory.<br/>
+Message:take lembas:jimmyclark
+ Results: lembas added to inventory.<br/>
+Message:eat lembas:jimmyclark
+ Results: You eat the lembas and your strength is restored.<br/>
+Message:say blessing:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:go east:jimmyclark
+ Results: You are traveling along a beaten path in an open field.  It is starting to get hot and dry as you move further south.  You come upon a fork in the road with a sign that says "Gondor: East, Rohan: South". Though the sides of the road are filled with flowers, there is a single green flower that catches your eye and reminds you of the ones back home in the Shire.<br/>This location contains:<br/>flower<br/>
+Message:pick flower:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:take flower:jimmyclark
+ Results: flower added to inventory.<br/>
+Message:smell flower:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:go south:jimmyclark
+ Results: You enter the Kingdom of Rohan, home of the Rohirrim people.  King Theoden hears of your noble quest and offers you a gift.<br/>This location contains:<br/>
+Message:take gift:jimmyclark
+ Results: Let's open the gift first and see what's inside..<br/>
+Message:open gift:jimmyclark
+ Results: gift contains shield<br/>
+Message:take shield:jimmyclark
+ Results: shield added to inventory.<br/>
+Message:use shield:jimmyclark
+ Results: Nothing happened.<br/>
+Message:go west:jimmyclark
+ Results: The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.<br/>This location contains:<br/>
+Message:take box:jimmyclark
+ Results: Cannot take box.<br/>
+Message:open box:jimmyclark
+ Results: As you reach for the box, one of Saruman's henchmen comes around the corner and sees you. Looks like you have to fight the henchman before entering the tower.<br/>
+Message:fight henchman:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:attack henchman with shield:jimmyclark
+ Results: shield is ineffective here. Need something else...<br/>
+Message:take sword:jimmyclark
+ Results: Cannot take sword.<br/>
+Message:i:jimmyclark
+ Results: Inventory: <br/>letter<br/>ring<br/>hat<br/>torch<br/>beer<br/>blessing<br/>lembas<br/>flower<br/>shield<br/>
+Message:attack henchman with torch:jimmyclark
+ Results: torch is ineffective here. Need something else...<br/>
+Message:attack henchman with beer:jimmyclark
+ Results: Knowing you have no hope to kill this thing, you offer it a beer which the henchman gladly accepts, as he has been on his feet all day and was looking for a drink. He takes his beer and walks away, leaving you be.<br/>
+Message:go east:jimmyclark
+ Results: You enter the Kingdom of Rohan, home of the Rohirrim people.  King Theoden hears of your noble quest and offers you a gift.<br/>This location contains:<br/>
+Message:take gift:jimmyclark
+ Results: Cannot take gift.<br/>
+Message:accept gift:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:go north:jimmyclark
+ Results: You are traveling along a beaten path in an open field.  It is starting to get hot and dry as you move further south.  You come upon a fork in the road with a sign that says "Gondor: East, Rohan: South". Though the sides of the road are filled with flowers, there is a single green flower that catches your eye and reminds you of the ones back home in the Shire.<br/>This location contains:<br/>
+Message:hint:jimmyclark
+ Results: <br/>
+Message:go east:jimmyclark
+ Results: With the sprawling fortress of Minas Tirith appearing before you, you realize you have entered the Kingdom of Gondor.  The nobleman Faramir is moved by your story and bestows upon you an offering.<br/>This location contains:<br/>
+Message:take offering:jimmyclark
+ Results: Let's open the offering first and see what's inside..<br/>
+Message:open the offering:jimmyclark
+ Results: the is not in the room.<br/>
+Message:open offering:jimmyclark
+ Results: offering contains sword<br/>
+Message:take sword:jimmyclark
+ Results: sword added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go south:jimmyclark
+ Results: You are now on the outskirts of Mordor. The sun beats down on you.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: Better put my hat on before I go any farther south...<br/>
+Message:put on hat:jimmyclark
+ Results: Put command requires four arguments (put (item) in (container)<br/>
+Message:put hat on head:jimmyclark
+ Results: head not in room.<br/>
+Message:put chapeau on noggin:jimmyclark
+ Results: chapeau not in inventory.<br/>
+Message:wear hat:jimmyclark
+ Results: You put the hat on.<br/>
+Message:go south:jimmyclark
+ Results: You find yourself in the heart of Mordor. You can just barely make out the silhouette of a fiery mountain in the distance to the South.<br/>It could just be a hallucination from lack of sleep but there appears to be a figure guarding the path up ahead.<br/>This location contains:<br/>
+Message:approach figure:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:fight figure:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:go south:jimmyclark
+ Results: There is an orc blocking the way to Mount Doom and there's no way around him!<br/>
+Message:fight orc:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:attack orc:jimmyclark
+ Results: Error: Attack command requires four arguments (attack (creature) with (item)).<br/>
+Message:attack with sword:jimmyclark
+ Results: Error: Attack command requires four arguments (attack (creature) with (item)).<br/>
+Message:attack orc with sword:jimmyclark
+ Results: You lunge forward and sever the orc's head.<br/>
+Message:go south:jimmyclark
+ Results: Finally, after many hours of climbing, you reach the top of Mount Doom.<br/>To your surprise, your old buddy Gollum has beaten you to the top of the mountain and is now prepared to fight you for your ring. You know what you came here to do and nothing will stop you now.<br/>This location contains:<br/>
+Message:attack golum:jimmyclark
+ Results: Error: Attack command requires four arguments (attack (creature) with (item)).<br/>
+Message:attack gollum:jimmyclark
+ Results: Error: Attack command requires four arguments (attack (creature) with (item)).<br/>
+Message:go south:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:i:jimmyclark
+ Results: Inventory: <br/>letter<br/>ring<br/>hat<br/>torch<br/>beer<br/>blessing<br/>lembas<br/>flower<br/>shield<br/>sword<br/>
+Message:attack gollum with flower:jimmyclark
+ Results: Gollum becomes inebriated by the magical scent of the flower. He no longer cares about reclaiming his ring and wanders back down the mountain to start a new ring-free life.<br/>
+Message:go south:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go east:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go west:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go north:jimmyclark
+ Results: You find yourself in the heart of Mordor. You can just barely make out the silhouette of a fiery mountain in the distance to the South.<br/>This location contains:<br/>
+Message:hint:jimmyclark
+ Results: You need some protection before fighting the orc. Did you forget to take a protective item when you had the chance?<br/>
+Message:go north:jimmyclark
+ Results: You are now on the outskirts of Mordor. The sun beats down on you.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: You find yourself in the heart of Mordor. You can just barely make out the silhouette of a fiery mountain in the distance to the South.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go west:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go north:jimmyclark
+ Results: You are now on the outskirts of Mordor. The sun beats down on you.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: You find yourself in the heart of Mordor. You can just barely make out the silhouette of a fiery mountain in the distance to the South.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: Finally, after many hours of climbing, you reach the top of Mount Doom.<br/>This location contains:<br/>
+Message:hint:jimmyclark
+ Results: After you defeat gollum, you are standing over the edge of Mount Doom, waiting to drop something in there.  I bet the "drop (item)" command might be useful here.<br/>
+Message:drop ring:jimmyclark
+ Results: ring dropped<br/>You destroyed the One Ring! Victory!!!<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:open present:jimmyclark
+ Results: present contains ring, letter<br/>
+Message:take ring:jimmyclark
+ Results: ring added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.<br/>This location contains:<br/>hat<br/>
+Message:take hat:jimmyclark
+ Results: hat added to inventory.<br/>
+Message:examine hat:jimmyclark
+ Results: Gucci<br/>
+Message:go east:jimmyclark
+ Results: You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.<br/>You notice a figure peering at you from a dark corner of the tavern.  If only you had some light...<br/>This location contains:<br/>torch<br/>beer<br/>
+Message:take beer:jimmyclark
+ Results: beer added to inventory.<br/>
+Message:examine beer:jimmyclark
+ Results: Great Lakes Brewing Company<br/>
+Message:drink beer:jimmyclark
+ Results: Congrats! You drank the beer!<br/>
+Message:take torch:jimmyclark
+ Results: torch added to inventory.<br/>
+Message:attack nazgul with torch:jimmyclark
+ Results: You charge at the nazgul with the torch, lighting its cloak on fire.  The nazgul shrieks and runs out of the tavern.<br/>
+Message:go south:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>blessing<br/>lembas<br/>
+Message:take blessing:jimmyclark
+ Results: blessing added to inventory.<br/>
+Message:take lembas:jimmyclark
+ Results: lembas added to inventory.<br/>
+Message:go south:jimmyclark
+ Results: The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.<br/>This location contains:<br/>
+Message:attack henchman with beer:jimmyclark
+ Results: Knowing you have no hope to kill this thing, you offer it a beer which the henchman gladly accepts, as he has been on his feet all day and was looking for a drink. He takes his beer and walks away, leaving you be.<br/>
+Message:bo south:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:go south:jimmyclark
+ Results: The door to the tower is locked.<br/>
+Message:look:jimmyclark
+ Results: The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.<br/>
+Message:open box:jimmyclark
+ Results: box contains key<br/>
+Message:take key:jimmyclark
+ Results: key added to inventory.<br/>
+Message:open door:jimmyclark
+ Results: door contains <br/>
+Message:go south:jimmyclark
+ Results: You enter the tower and go up the steps until you reach the top.<br/>At the top, you come face to face with Saruman, the white wizard himself. He doesn't intend you to leave the tower alive.<br/>This location contains:<br/>
+Message:attack saruman with blessing:jimmyclark
+ Results: A bright light shoots out and hits Saruman. With a shrill cry, he perishes.<br/>An orb falls out of saruman's cloak.<br/>
+Message:take orb:jimmyclark
+ Results: orb added to inventory.<br/>
+Message:read orb:jimmyclark
+ Results: Nothing written.<br/>
+Message:use orb:jimmyclark
+ Results: You stare into the orb and find yourself staring directly at the Eye of Sauron.  You feel his peircing gaze.  You wave hello to him and shut off the orb.<br/>
+Message:go north:jimmyclark
+ Results: The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.<br/>This location contains:<br/>
+Message:go north:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: You are traveling along a beaten path in an open field.  It is starting to get hot and dry as you move further south.  You come upon a fork in the road with a sign that says "Gondor: East, Rohan: South". Though the sides of the road are filled with flowers, there is a single green flower that catches your eye and reminds you of the ones back home in the Shire.<br/>This location contains:<br/>flower<br/>
+Message:take:jimmyclark
+ Results: Take what?<br/>
+Message:take flower:jimmyclark
+ Results: flower added to inventory.<br/>
+Message:read flower:jimmyclark
+ Results: A magical herb with mystical powers of sedation.<br/>
+Message:smoke flower:jimmyclark
+ Results: I like the way you think but you can't do it in this game.<br/>
+Message:go east:jimmyclark
+ Results: With the sprawling fortress of Minas Tirith appearing before you, you realize you have entered the Kingdom of Gondor.  The nobleman Faramir is moved by your story and bestows upon you an offering.<br/>This location contains:<br/>
+Message:read ring:jimmyclark
+ Results: One Ring to rule them all, One ring to find them; One ring to bring them all and in the darkness bind them.<br/>
+Message:use ring:jimmyclark
+ Results: You feel a rush of power as you slip the ring on and become invisible to the world. That's neat, you think to yourself, and take the ring back off.<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:food:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:weapons:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:go east:jimmyclark
+ Results: Should probably take that ring, it looks important...<br/>
+Message:take ring:jimmyclark
+ Results: I don't see a ring, maybe I should open the present first..<br/>
+Message:open present:jimmyclark
+ Results: present contains ring, letter<br/>
+Message:read letter:jimmyclark
+ Results: letter not in inventory.<br/>
+Message:take ring:jimmyclark
+ Results: ring added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.<br/>This location contains:<br/>hat<br/>
+Message:take hat:jimmyclark
+ Results: hat added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.<br/>You notice a figure peering at you from a dark corner of the tavern.  If only you had some light...<br/>This location contains:<br/>torch<br/>beer<br/>
+Message:take torch :jimmyclark
+ Results: torch added to inventory.<br/>
+Message:take beer:jimmyclark
+ Results: beer added to inventory.<br/>
+Message:drink beer:jimmyclark
+ Results: Congrats! You drank the beer!<br/>
+Message:go east:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go north:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go south:jimmyclark
+ Results: A hooded figure blocks the way.<br/>
+Message:go west:jimmyclark
+ Results: The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.<br/>You notice a figure peering at you from a dark corner of the tavern.  If only you had some light...<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go south:jimmyclark
+ Results: A hooded figure blocks the way.<br/>
+Message:attack figuer:jimmyclark
+ Results: Error: Attack command requires four arguments (attack (creature) with (item)).<br/>
+Message:attack creature with torch:jimmyclark
+ Results: creature is not in the room.<br/>
+Message:attack figure with torch:jimmyclark
+ Results: figure is not in the room.<br/>
+Message:hint:jimmyclark
+ Results: There are two hints for this room. One thing that is helpful to do is use the activate (item) command in order to see everyone in the room.  The second hint has to do with the attack (creature) with (item) command.  There is something blocking the tavern, do you know what it is?<br/>
+Message:activate torch:jimmyclark
+ Results: The room lights up to reveal a nazgul, one of Sauron's most feared servents.  It is blocking the way out of the tavern.<br/>
+Message:attack nazgul with beer:jimmyclark
+ Results: beer is ineffective here. Need something else...<br/>
+Message:attack nazgul with torch:jimmyclark
+ Results: You charge at the nazgul with the torch, lighting its cloak on fire.  The nazgul shrieks and runs out of the tavern.<br/>
+Message:go south:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>blessing<br/>lembas<br/>
+Message:take blessin:jimmyclark
+ Results: Cannot take blessin.<br/>
+Message:take blessing:jimmyclark
+ Results: blessing added to inventory.<br/>
+Message:take lembas:jimmyclark
+ Results: lembas added to inventory.<br/>
+Message:go south:jimmyclark
+ Results: The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.<br/>This location contains:<br/>
+Message:open box:jimmyclark
+ Results: As you reach for the box, one of Saruman's henchmen comes around the corner and sees you. Looks like you have to fight the henchman before entering the tower.<br/>
+Message:attack henchman with blessing:jimmyclark
+ Results: blessing is ineffective here. Need something else...<br/>
+Message:attack henchman with lembas:jimmyclark
+ Results: lembas is ineffective here. Need something else...<br/>
+Message:attack henchman with beer:jimmyclark
+ Results: Knowing you have no hope to kill this thing, you offer it a beer which the henchman gladly accepts, as he has been on his feet all day and was looking for a drink. He takes his beer and walks away, leaving you be.<br/>
+Message:go south:jimmyclark
+ Results: The door to the tower is locked.<br/>
+Message:use blessing:jimmyclark
+ Results: You feel an immense power radiating inside of you.<br/>
+Message:open door:jimmyclark
+ Results: The door is locked. Looks like it needs a key.<br/>
+Message:use blessing:jimmyclark
+ Results: You feel an immense power radiating inside of you.<br/>
+Message:open box:jimmyclark
+ Results: box contains key<br/>
+Message:use key:jimmyclark
+ Results: key not in inventory.<br/>
+Message:take key:jimmyclark
+ Results: key added to inventory.<br/>
+Message:use key:jimmyclark
+ Results: Nothing happened.<br/>
+Message:open door with key:jimmyclark
+ Results: door contains <br/>
+Message:take contents:jimmyclark
+ Results: Cannot take contents.<br/>
+Message:open door:jimmyclark
+ Results: door contains <br/>
+Message:go south:jimmyclark
+ Results: You enter the tower and go up the steps until you reach the top.<br/>At the top, you come face to face with Saruman, the white wizard himself. He doesn't intend you to leave the tower alive.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go west:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go north:jimmyclark
+ Results: You must defeat Saruman!<br/>
+Message:attack saruman with torch:jimmyclark
+ Results: torch is ineffective here. Need something else...<br/>
+Message:attack saruman with beer:jimmyclark
+ Results: beer is ineffective here. Need something else...<br/>
+Message:attack saruman with key:jimmyclark
+ Results: key is ineffective here. Need something else...<br/>
+Message:i:jimmyclark
+ Results: Inventory: <br/>ring<br/>hat<br/>torch<br/>beer<br/>blessing<br/>lembas<br/>key<br/>
+Message:attack saruman with ring:jimmyclark
+ Results: ring is ineffective here. Need something else...<br/>
+Message:attack saruman with hat:jimmyclark
+ Results: hat is ineffective here. Need something else...<br/>
+Message:attack saruman with blessing:jimmyclark
+ Results: A bright light shoots out and hits Saruman. With a shrill cry, he perishes.<br/>An orb falls out of saruman's cloak.<br/>
+Message:take orb:jimmyclark
+ Results: orb added to inventory.<br/>
+Message:go south:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go north:jimmyclark
+ Results: The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.<br/>This location contains:<br/>
+Message:open box:jimmyclark
+ Results: box contains <br/>
+Message:i:jimmyclark
+ Results: Inventory: <br/>ring<br/>hat<br/>torch<br/>beer<br/>blessing<br/>lembas<br/>key<br/>orb<br/>
+Message:take box:jimmyclark
+ Results: Cannot take box.<br/>
+Message:go north:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>
+Message:go west:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go suth:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go south:jimmyclark
+ Results: The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: You enter the Kingdom of Rohan, home of the Rohirrim people.  King Theoden hears of your noble quest and offers you a gift.<br/>This location contains:<br/>
+Message:open gift:jimmyclark
+ Results: gift contains shield<br/>
+Message:take shield:jimmyclark
+ Results: shield added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: You are now on the outskirts of Mordor. The sun beats down on you.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go north:jimmyclark
+ Results: With the sprawling fortress of Minas Tirith appearing before you, you realize you have entered the Kingdom of Gondor.  The nobleman Faramir is moved by your story and bestows upon you an offering.<br/>This location contains:<br/>
+Message:take offering:jimmyclark
+ Results: Let's open the offering first and see what's inside..<br/>
+Message:open offering:jimmyclark
+ Results: offering contains sword<br/>
+Message:take swor:jimmyclark
+ Results: Cannot take swor.<br/>
+Message:take sword:jimmyclark
+ Results: sword added to inventory.<br/>
+Message:go north:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go west:jimmyclark
+ Results: You are traveling along a beaten path in an open field.  It is starting to get hot and dry as you move further south.  You come upon a fork in the road with a sign that says "Gondor: East, Rohan: South". Though the sides of the road are filled with flowers, there is a single green flower that catches your eye and reminds you of the ones back home in the Shire.<br/>This location contains:<br/>flower<br/>
+Message:take flower:jimmyclark
+ Results: flower added to inventory.<br/>
+Message:go west:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: You are traveling along a beaten path in an open field.  It is starting to get hot and dry as you move further south.  You come upon a fork in the road with a sign that says "Gondor: East, Rohan: South". Though the sides of the road are filled with flowers, there is a single green flower that catches your eye and reminds you of the ones back home in the Shire.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: You enter the Kingdom of Rohan, home of the Rohirrim people.  King Theoden hears of your noble quest and offers you a gift.<br/>This location contains:<br/>
+Message:go north:jimmyclark
+ Results: You are traveling along a beaten path in an open field.  It is starting to get hot and dry as you move further south.  You come upon a fork in the road with a sign that says "Gondor: East, Rohan: South". Though the sides of the road are filled with flowers, there is a single green flower that catches your eye and reminds you of the ones back home in the Shire.<br/>This location contains:<br/>
+Message:go north:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go south:jimmyclark
+ Results: You enter the Kingdom of Rohan, home of the Rohirrim people.  King Theoden hears of your noble quest and offers you a gift.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:i:jimmyclark
+ Results: Inventory: <br/>ring<br/>hat<br/>torch<br/>beer<br/>blessing<br/>lembas<br/>key<br/>orb<br/>shield<br/>sword<br/>flower<br/>
+Message:use flower:jimmyclark
+ Results: I like the way you think but you can't do it in this game.<br/>
+Message:smoke flower:jimmyclark
+ Results: I like the way you think but you can't do it in this game.<br/>
+Message:smoke ring:jimmyclark
+ Results: You feel a rush of power as you slip the ring on and become invisible to the world. That's neat, you think to yourself, and take the ring back off.<br/>
+Message:go south:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go north:jimmyclark
+ Results: You are traveling along a beaten path in an open field.  It is starting to get hot and dry as you move further south.  You come upon a fork in the road with a sign that says "Gondor: East, Rohan: South". Though the sides of the road are filled with flowers, there is a single green flower that catches your eye and reminds you of the ones back home in the Shire.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: With the sprawling fortress of Minas Tirith appearing before you, you realize you have entered the Kingdom of Gondor.  The nobleman Faramir is moved by your story and bestows upon you an offering.<br/>This location contains:<br/>
+Message:take offering:jimmyclark
+ Results: Let's open the offering first and see what's inside..<br/>
+Message:open offering:jimmyclark
+ Results: offering contains <br/>
+Message:go south:jimmyclark
+ Results: You are now on the outskirts of Mordor. The sun beats down on you.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: Better put my hat on before I go any farther south...<br/>
+Message:wear hat:jimmyclark
+ Results: You put the hat on.<br/>
+Message:go south:jimmyclark
+ Results: You find yourself in the heart of Mordor. You can just barely make out the silhouette of a fiery mountain in the distance to the South.<br/>It could just be a hallucination from lack of sleep but there appears to be a figure guarding the path up ahead.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: There is an orc blocking the way to Mount Doom and there's no way around him!<br/>
+Message:attack with sword:jimmyclark
+ Results: Error: Attack command requires four arguments (attack (creature) with (item)).<br/>
+Message:attack orc with sword:jimmyclark
+ Results: So hungry...don't have the strength to fight.<br/>
+Message:eat lembas:jimmyclark
+ Results: You eat the lembas and your strength is restored.<br/>
+Message:attack orc with sword:jimmyclark
+ Results: You lunge forward and sever the orc's head.<br/>
+Message:go south:jimmyclark
+ Results: Finally, after many hours of climbing, you reach the top of Mount Doom.<br/>To your surprise, your old buddy Gollum has beaten you to the top of the mountain and is now prepared to fight you for your ring. You know what you came here to do and nothing will stop you now.<br/>This location contains:<br/>
+Message:fight gollum with ring:jimmyclark
+ Results: Error: Command not supported<br/>
+Message:i:jimmyclark
+ Results: Inventory: <br/>ring<br/>hat<br/>torch<br/>beer<br/>blessing<br/>lembas<br/>key<br/>orb<br/>shield<br/>sword<br/>flower<br/>
+Message:attack gollum with orb:jimmyclark
+ Results: orb is ineffective here. Need something else...<br/>
+Message:attack gollum with key:jimmyclark
+ Results: key is ineffective here. Need something else...<br/>
+Message:attack gollum with blessing:jimmyclark
+ Results: blessing is ineffective here. Need something else...<br/>
+Message:attack gollum with shield:jimmyclark
+ Results: shield is ineffective here. Need something else...<br/>
+Message:attack gollum with flower:jimmyclark
+ Results: Gollum becomes inebriated by the magical scent of the flower. He no longer cares about reclaiming his ring and wanders back down the mountain to start a new ring-free life.<br/>
+Message:go south:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go north:jimmyclark
+ Results: You find yourself in the heart of Mordor. You can just barely make out the silhouette of a fiery mountain in the distance to the South.<br/>This location contains:<br/>
+Message:go west:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go east:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:hint:jimmyclark
+ Results: You need some protection before fighting the orc. Did you forget to take a protective item when you had the chance?<br/>
+Message:go south:jimmyclark
+ Results: Finally, after many hours of climbing, you reach the top of Mount Doom.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:hint:jimmyclark
+ Results: After you defeat gollum, you are standing over the edge of Mount Doom, waiting to drop something in there.  I bet the "drop (item)" command might be useful here.<br/>
+Message:drop ring:jimmyclark
+ Results: ring dropped<br/>You destroyed the One Ring! Victory!!!<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:open letter:jimmyclark
+ Results: letter is not in the room.<br/>
+Message:open present:jimmyclark
+ Results: present contains ring, letter<br/>
+Message:open letter:jimmyclark
+ Results: letter is not in the room.<br/>
+Message:read letter:jimmyclark
+ Results: letter not in inventory.<br/>
+Message:take letter:jimmyclark
+ Results: letter added to inventory.<br/>
+Message:read letter:jimmyclark
+ Results: Frodo, I am entrusting you with my most cherished possession, this ring.  It has caused this world great pain and suffering and must be destroyed. I wish you the best of luck on your journey, do not let me down.                                 Welcome to the LOTR Zork game! There is no manual on how to play, as most of the fun is figuring out what commands are included in the game.  To move around however, you use the command "go north" to go north, "go east" to go east, and so on.  Additionally, some of the tougher locations in the game have hints to get you past the location.  Enter "hint" when in a room to get a hint on how to beat the room.<br/>
+Message:go north:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go south:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:go east:jimmyclark
+ Results: The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.<br/>This location contains:<br/>hat<br/>
+Message:take hat:jimmyclark
+ Results: hat added to inventory.<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:open present:jimmyclark
+ Results: present contains ring, letter<br/>
+Message:take ring:jimmyclark
+ Results: ring added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.<br/>This location contains:<br/>hat<br/>
+Message:take hat:jimmyclark
+ Results: hat added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.<br/>You notice a figure peering at you from a dark corner of the tavern.  If only you had some light...<br/>This location contains:<br/>torch<br/>beer<br/>
+Message:take torch:jimmyclark
+ Results: torch added to inventory.<br/>
+Message:use torch:jimmyclark
+ Results: The room lights up to reveal a nazgul, one of Sauron's most feared servents.  It is blocking the way out of the tavern.<br/>
+Message:attack nazgul with torch:jimmyclark
+ Results: You charge at the nazgul with the torch, lighting its cloak on fire.  The nazgul shrieks and runs out of the tavern.<br/>
+Message:go south:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>blessing<br/>lembas<br/>
+Message:take lembas:jimmyclark
+ Results: lembas added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: You are traveling along a beaten path in an open field.  It is starting to get hot and dry as you move further south.  You come upon a fork in the road with a sign that says "Gondor: East, Rohan: South". Though the sides of the road are filled with flowers, there is a single green flower that catches your eye and reminds you of the ones back home in the Shire.<br/>This location contains:<br/>flower<br/>
+Message:take flower:jimmyclark
+ Results: flower added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: With the sprawling fortress of Minas Tirith appearing before you, you realize you have entered the Kingdom of Gondor.  The nobleman Faramir is moved by your story and bestows upon you an offering.<br/>This location contains:<br/>
+Message:open offering:jimmyclark
+ Results: offering contains sword<br/>
+Message:go south:jimmyclark
+ Results: You are now on the outskirts of Mordor. The sun beats down on you.<br/>This location contains:<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: Should probably take that ring, it looks important...<br/>
+Message:take ring:jimmyclark
+ Results: I don't see a ring, maybe I should open the present first..<br/>
+Message:open present:jimmyclark
+ Results: present contains ring, letter<br/>
+Message:take ring:jimmyclark
+ Results: ring added to inventory.<br/>
+Message:take letter:jimmyclark
+ Results: letter added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.<br/>This location contains:<br/>hat<br/>
+Message:take hat:jimmyclark
+ Results: hat added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.<br/>You notice a figure peering at you from a dark corner of the tavern.  If only you had some light...<br/>This location contains:<br/>torch<br/>beer<br/>
+Message:take torch:jimmyclark
+ Results: torch added to inventory.<br/>
+Message:use torch:jimmyclark
+ Results: The room lights up to reveal a nazgul, one of Sauron's most feared servents.  It is blocking the way out of the tavern.<br/>
+Message:go south:jimmyclark
+ Results: A hooded figure blocks the way.<br/>
+Message:attack nazgul with torch:jimmyclark
+ Results: You charge at the nazgul with the torch, lighting its cloak on fire.  The nazgul shrieks and runs out of the tavern.<br/>
+Message:go south:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>blessing<br/>lembas<br/>
+Message:go north:jimmyclark
+ Results: You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.<br/>This location contains:<br/>beer<br/>
+Message:go south:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>blessing<br/>lembas<br/>
+Message:take blessing:jimmyclark
+ Results: blessing added to inventory.<br/>
+Message:read blessing:jimmyclark
+ Results: This shall protect you in battle against the white wizard.<br/>
+Message:Start:jimmyclark
+ Results: You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: Should probably take that ring, it looks important...<br/>
+Message:take ring:jimmyclark
+ Results: I don't see a ring, maybe I should open the present first..<br/>
+Message:open present:jimmyclark
+ Results: present contains ring, letter<br/>
+Message:take ring:jimmyclark
+ Results: ring added to inventory.<br/>
+Message:take letter:jimmyclark
+ Results: letter added to inventory.<br/>
+Message:read letter:jimmyclark
+ Results: Frodo, I am entrusting you with my most cherished possession, this ring.  It has caused this world great pain and suffering and must be destroyed. I wish you the best of luck on your journey, do not let me down.                                 Welcome to the LOTR Zork game! There is no manual on how to play, as most of the fun is figuring out what commands are included in the game.  To move around however, you use the command "go north" to go north, "go east" to go east, and so on.  Additionally, some of the tougher locations in the game have hints to get you past the location.  Enter "hint" when in a room to get a hint on how to beat the room.<br/>
+Message:go east:jimmyclark
+ Results: The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.<br/>This location contains:<br/>hat<br/>
+Message:take hat:jimmyclark
+ Results: hat added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.<br/>You notice a figure peering at you from a dark corner of the tavern.  If only you had some light...<br/>This location contains:<br/>torch<br/>beer<br/>
+Message:go south:jimmyclark
+ Results: A hooded figure blocks the way.<br/>
+Message:go east:jimmyclark
+ Results: There is nothing that way...<br/>
+Message:take torch:jimmyclark
+ Results: torch added to inventory.<br/>
+Message:use torch:jimmyclark
+ Results: The room lights up to reveal a nazgul, one of Sauron's most feared servents.  It is blocking the way out of the tavern.<br/>
+Message:take beer:jimmyclark
+ Results: beer added to inventory.<br/>
+Message:attack nazgul with torch:jimmyclark
+ Results: You charge at the nazgul with the torch, lighting its cloak on fire.  The nazgul shrieks and runs out of the tavern.<br/>
+Message:go west:jimmyclark
+ Results: The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>blessing<br/>lembas<br/>
+Message:take blessing:jimmyclark
+ Results: blessing added to inventory.<br/>
+Message:take lembas:jimmyclark
+ Results: lembas added to inventory.<br/>
+Message:read blessing:jimmyclark
+ Results: This shall protect you in battle against the white wizard.<br/>
+Message:go south:jimmyclark
+ Results: The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.<br/>This location contains:<br/>
+Message:take box:jimmyclark
+ Results: Cannot take box.<br/>
+Message:open box:jimmyclark
+ Results: As you reach for the box, one of Saruman's henchmen comes around the corner and sees you. Looks like you have to fight the henchman before entering the tower.<br/>
+Message:i:jimmyclark
+ Results: Inventory: <br/>ring<br/>letter<br/>hat<br/>torch<br/>beer<br/>blessing<br/>lembas<br/>
+Message:attack henchman with beer:jimmyclark
+ Results: Knowing you have no hope to kill this thing, you offer it a beer which the henchman gladly accepts, as he has been on his feet all day and was looking for a drink. He takes his beer and walks away, leaving you be.<br/>
+Message:open box:jimmyclark
+ Results: box contains key<br/>
+Message:take key:jimmyclark
+ Results: key added to inventory.<br/>
+Message:go south:jimmyclark
+ Results: The door to the tower is locked.<br/>
+Message:open door:jimmyclark
+ Results: door contains <br/>
+Message:go south:jimmyclark
+ Results: You enter the tower and go up the steps until you reach the top.<br/>At the top, you come face to face with Saruman, the white wizard himself. He doesn't intend you to leave the tower alive.<br/>This location contains:<br/>
+Message:go north:jimmyclark
+ Results: You must defeat Saruman!<br/>
+Message:attack saruman with blessing:jimmyclark
+ Results: A bright light shoots out and hits Saruman. With a shrill cry, he perishes.<br/>An orb falls out of saruman's cloak.<br/>
+Message:take orb:jimmyclark
+ Results: orb added to inventory.<br/>
+Message:examine orb:jimmyclark
+ Results: Nothing written.<br/>
+Message:use orb:jimmyclark
+ Results: You stare into the orb and find yourself staring directly at the Eye of Sauron.  You feel his peircing gaze.  You wave hello to him and shut off the orb.<br/>
+Message:go north:jimmyclark
+ Results: The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.<br/>This location contains:<br/>
+Message:go north:jimmyclark
+ Results: You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.<br/>This location contains:<br/>
+Message:go east:jimmyclark
+ Results: You are traveling along a beaten path in an open field.  It is starting to get hot and dry as you move further south.  You come upon a fork in the road with a sign that says "Gondor: East, Rohan: South". Though the sides of the road are filled with flowers, there is a single green flower that catches your eye and reminds you of the ones back home in the Shire.<br/>This location contains:<br/>flower<br/>
+Message:take flower:jimmyclark
+ Results: flower added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: With the sprawling fortress of Minas Tirith appearing before you, you realize you have entered the Kingdom of Gondor.  The nobleman Faramir is moved by your story and bestows upon you an offering.<br/>This location contains:<br/>
+Message:take offering:jimmyclark
+ Results: Let's open the offering first and see what's inside..<br/>
+Message:open offering:jimmyclark
+ Results: offering contains sword<br/>
+Message:take sword:jimmyclark
+ Results: sword added to inventory.<br/>
+Message:go south:jimmyclark
+ Results: You are now on the outskirts of Mordor. The sun beats down on you.<br/>This location contains:<br/>
+Message:go west:jimmyclark
+ Results: You enter the Kingdom of Rohan, home of the Rohirrim people.  King Theoden hears of your noble quest and offers you a gift.<br/>This location contains:<br/>
+Message:open gift:jimmyclark
+ Results: gift contains shield<br/>
+Message:take shield:jimmyclark
+ Results: shield added to inventory.<br/>
+Message:go east:jimmyclark
+ Results: You are now on the outskirts of Mordor. The sun beats down on you.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: Better put my hat on before I go any farther south...<br/>
+Message:wear hat:jimmyclark
+ Results: You put the hat on.<br/>
+Message:go south:jimmyclark
+ Results: You find yourself in the heart of Mordor. You can just barely make out the silhouette of a fiery mountain in the distance to the South.<br/>It could just be a hallucination from lack of sleep but there appears to be a figure guarding the path up ahead.<br/>This location contains:<br/>
+Message:go south:jimmyclark
+ Results: There is an orc blocking the way to Mount Doom and there's no way around him!<br/>
+Message:attack orc with ring:jimmyclark
+ Results: So hungry...don't have the strength to fight.<br/>
+Message:eat lembas:jimmyclark
+ Results: You eat the lembas and your strength is restored.<br/>
+Message:attack orc with ring:jimmyclark
+ Results: ring is ineffective here. Need something else...<br/>
+Message:attack orc with sword:jimmyclark
+ Results: You lunge forward and sever the orc's head.<br/>
+Message:go south:jimmyclark
+ Results: Finally, after many hours of climbing, you reach the top of Mount Doom.<br/>To your surprise, your old buddy Gollum has beaten you to the top of the mountain and is now prepared to fight you for your ring. You know what you came here to do and nothing will stop you now.<br/>This location contains:<br/>
+Message:examine flower:jimmyclark
+ Results: A magical herb with mystical powers of sedation.<br/>
+Message:attack gollum with flower:jimmyclark
+ Results: Gollum becomes inebriated by the magical scent of the flower. He no longer cares about reclaiming his ring and wanders back down the mountain to start a new ring-free life.<br/>
+Message:hint:jimmyclark
+ Results: After you defeat gollum, you are standing over the edge of Mount Doom, waiting to drop something in there.  I bet the "drop (item)" command might be useful here.<br/>
+Message:drop ring:jimmyclark
+ Results: ring dropped<br/>You destroyed the One Ring! Victory!!!<br/>
+Message:go north:jimmyclark
+ Results: You beat the game! Restart the webpage to play again.<br/>

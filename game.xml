@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<map>
+  <room>
+    <name>Entrance</name>
+    <description>You wake up in a small house, carved out of the side of a hill.  You don't remember how you got here but it feels like home.  There is a present on the kitchen counter that says "To my beloved nephew". A path leads out of the house to the east.</description>
+    <container>present</container>
+    <hint>Listen to the prompt! Take the ring!</hint>
+    <trigger>
+      <type>permanent</type>
+      <command>go east</command>
+      <condition>
+        <has>no</has>
+        <object>ring</object>
+        <owner>present</owner>
+      </condition>
+      <print>Should probably take that ring, it looks important...</print>
+    </trigger>
+    <border>
+      <direction>east</direction>
+      <name>TheShire</name>
+    </border>
+  </room>
+  <room>
+    <name>TheShire</name>
+    <description>The land surrounding you is full of houses similar to your own.  The inhabitants look peculiar and appear quite short. A fellow name Samwise Gamgee hears where you're headed and offers you his hat as a token of good fortune. The path continues to the east.</description>
+    <item>hat</item>
+    <border>
+      <direction>west</direction>
+      <name>Entrance</name>
+    </border>
+    <border>
+      <direction>east</direction>
+      <name>Bree</name>
+    </border>
+  </room>
+  <room>
+    <name>Bree</name>
+    <description>You happen upon a tavern in the middle of a small town and go inside.  The patrons are lively and the drinks are free-flowing.  You are grateful to finally sit down and rest.</description>
+    <item>torch</item>
+    <item>beer</item>
+    <creature>nazgul</creature>
+    <hint>There are two hints for this room. One thing that is helpful to do is use the activate (item) command in order to see everyone in the room.  The second hint has to do with the attack (creature) with (item) command.  There is something blocking the tavern, do you know what it is?</hint>
+    <trigger>
+     <type>permanent</type>
+     <command>go south</command>
+     <condition>
+      <object>nazgul</object>
+      <status>alive</status>
+     </condition>
+     <print>A hooded figure blocks the way.</print>
+    </trigger>
+    <trigger>
+     <condition>
+      <object>nazgul</object>
+      <status>alive</status>
+     </condition>
+     <print>You notice a figure peering at you from a dark corner of the tavern.  If only you had some light...</print>
+    </trigger>
+    <border>
+      <name>TheShire</name>
+      <direction>west</direction>
+    </border>
+    <border>
+      <name>Rivendell</name>
+      <direction>south</direction>
+    </border>
+  </room>
+  <room>
+   <name>Rivendell</name>
+   <description>You enter a city with an almost magical glow to it.  The sign says "Welcome to Rivendell!".  A wizard approaches you and offers you his blessing to help you on your quest.  The blessing will prove useful in the near future, the wizard assures you.</description>
+   <item>blessing</item>
+   <item>lembas</item>
+   <border>
+    <name>Bree</name>
+    <direction>north</direction>
+   </border>
+   <border>
+    <name>Path</name>
+    <direction>east</direction>
+   </border>
+   <border>
+    <name>Isengard</name>
+    <direction>south</direction>
+   </border>
+  </room>
+  <room>
+   <name>Isengard</name>
+   <description>The tower of Isengard rises before you.  A great evil is near.  The doors of the tower appear locked.  There is a box next to the door.</description>
+   <container>box</container>
+   <container>door</container>
+   <creature>henchman</creature>
+   <hint>You have to defeat the henchman before entering Saruman's tower. After defeating him, you have to open the door somehow.  Maybe try opening it with a key in your inventory...</hint>
+   <trigger>
+    <command>go south</command>
+    <condition>
+     <object>door</object>
+     <status>locked</status>
+    </condition>
+    <print>The door to the tower is locked.</print>
+   </trigger>
+   <trigger>
+    <command>go south</command>
+    <condition>
+     <object>blessing</object>
+     <owner>Rivendell</owner>
+    </condition>
+    <print>The door is open, but I should probably get a better weapon to fight Saruman.  I wonder if I should have taken Gandalf's blessing...</print>
+   </trigger>
+   <border>
+    <name>Rivendell</name>
+    <direction>north</direction>
+   </border>
+   <border>
+    <name>Rohan</name>
+    <direction>east</direction>
+   </border>
+   <border>
+    <name>Tower</name>
+    <direction>south</direction>
+   </border>
+  </room>
+  <room>
+   <name>Tower</name>
+   <description>You enter the tower and go up the steps until you reach the top.</description>
+   <creature>saruman</creature>
+   <hint>If you've seen The Two Towers, you should know what to attack saruman with.</hint>
+   <border>
+    <name>Isengard</name>
+    <direction>north</direction>
+   </border>
+   <trigger>
+    <command>go north</command>
+    <condition>
+     <object>saruman</object>
+     <status>alive</status>
+    </condition>
+    <print>You must defeat Saruman!</print>
+   </trigger>
+   <trigger>
+    <condition>
+     <object>saruman</object>
+     <status>alive</status>
+    </condition>
+    <print>At the top, you come face to face with Saruman, the white wizard himself. He doesn't intend you to leave the tower alive.</print>
+   </trigger>
+  </room>
+  <room>
+   <name>Path</name>
+   <description>You are traveling along a beaten path in an open field.  It is starting to get hot and dry as you move further south.  You come upon a fork in the road with a sign that says "Gondor: East, Rohan: South". Though the sides of the road are filled with flowers, there is a single green flower that catches your eye and reminds you of the ones back home in the Shire.</description>
+   <item>flower</item>
+   <border>
+    <name>Rivendell</name>
+    <direction>west</direction>
+   </border>
+   <border>
+    <name>Gondor</name>
+    <direction>east</direction>
+   </border>
+   <border>
+    <name>Rohan</name>
+    <direction>south</direction>
+   </border>
+  </room>
+  <room>
+   <name>Rohan</name>
+   <description>You enter the Kingdom of Rohan, home of the Rohirrim people.  King Theoden hears of your noble quest and offers you a gift.</description>
+   <container>gift</container>
+   <border>
+    <name>Isengard</name>
+    <direction>west</direction>
+   </border>
+   <border>
+    <name>Path</name>
+    <direction>north</direction>
+   </border>
+   <border>
+    <name>PreMordor</name>
+    <direction>east</direction>
+   </border>
+  </room>
+  <room>
+   <name>Gondor</name>
+   <description>With the sprawling fortress of Minas Tirith appearing before you, you realize you have entered the Kingdom of Gondor.  The nobleman Faramir is moved by your story and bestows upon you an offering.</description>
+   <container>offering</container>
+   <border>
+    <name>Path</name>
+    <direction>west</direction>
+   </border>
+   <border>
+    <name>PreMordor</name>
+    <direction>south</direction>
+   </border>
+  </room>
+  <room>
+   <name>PreMordor</name>
+   <description>You are now on the outskirts of Mordor. The sun beats down on you.</description>
+   <hint>Did you forget to pick up an item on your journey?</hint>
+   <trigger>
+    <command>go south</command>
+    <condition>
+     <object>hat</object>
+     <owner>TheShire</owner>
+    </condition>
+    <print>The sun is so strong here...don't think I can make it any further without some protection.</print>
+   </trigger>
+   <trigger>
+    <command>go south</command>
+    <condition>
+     <object>hat</object>
+     <status>normal</status>
+    </condition>
+    <print>Better put my hat on before I go any farther south...</print>
+   </trigger>
+   <border>
+    <name>Mordor</name>
+    <direction>south</direction>
+   </border>
+   <border>
+    <name>Gondor</name>
+    <direction>north</direction>
+   </border>
+   <border>
+    <name>Rohan</name>
+    <direction>west</direction>
+   </border>
+  </room>
+  <room>
+   <name>Mordor</name>
+   <description>You find yourself in the heart of Mordor. You can just barely make out the silhouette of a fiery mountain in the distance to the South.</description>
+   <creature>orc</creature>
+   <hint>You need some protection before fighting the orc. Did you forget to take a protective item when you had the chance?</hint>
+   <trigger>
+    <command>go south</command>
+    <condition>
+     <object>orc</object>
+     <status>alive</status>
+    </condition>
+    <print>There is an orc blocking the way to Mount Doom and there's no way around him!</print>
+   </trigger>
+   <trigger>
+    <condition>
+     <object>orc</object>
+     <status>alive</status>
+    </condition>
+    <print>It could just be a hallucination from lack of sleep but there appears to be a figure guarding the path up ahead.</print>
+   </trigger>
+   <border>
+    <name>PreMordor</name>
+    <direction>north</direction>
+   </border>
+   <border>
+    <name>MountDoom</name>
+    <direction>south</direction>
+   </border>
+  </room>
+  <room>
+   <name>MountDoom</name>
+   <description>Finally, after many hours of climbing, you reach the top of Mount Doom.</description>
+   <creature>gollum</creature>
+   <hint>After you defeat gollum, you are standing over the edge of Mount Doom, waiting to drop something in there.  I bet the "drop (item)" command might be useful here.</hint>
+   <trigger>
+    <condition>
+     <object>gollum</object>
+     <status>alive</status>
+    </condition>
+    <print>To your surprise, your old buddy Gollum has beaten you to the top of the mountain and is now prepared to fight you for your ring. You know what you came here to do and nothing will stop you now.</print>
+   </trigger>
+   <border>
+    <name>Mordor</name>
+    <direction>north</direction>
+   </border>
+  </room>
+  <item>
+    <name>ring</name>
+    <writing>One Ring to rule them all, One ring to find them; One ring to bring them all and in the darkness bind them.</writing>
+    <status>normal</status>
+    <owner>present</owner>
+    <turnon>
+      <print>You feel a rush of power as you slip the ring on and become invisible to the world. That's neat, you think to yourself, and take the ring back off.</print>
+    </turnon>
+    <trigger>
+     <command>take ring</command>
+      <condition>
+       <object>ring</object>
+       <owner>present</owner>
+      </condition>
+      <print>I don't see a ring, maybe I should open the present first.</print>
+    </trigger>
+    <trigger>
+     <command>drop ring</command>
+     <condition>
+      <object>gollum</object>
+      <status>alive</status>
+     </condition>
+     <print>I can't destroy the ring yet, I have to defeat Gollum first.</print>
+    </trigger>
+  </item>
+  <item>
+    <name>letter</name>
+    <owner>present</owner>
+    <writing>Frodo, I am entrusting you with my most cherished possession, this ring.  It has caused this world great pain and suffering and must be destroyed. I wish you the best of luck on your journey, do not let me down.                                 Welcome to the LOTR Zork game! There is no manual on how to play, as most of the fun is figuring out what commands are included in the game.  To move around however, you use the command "go north" to go north, "go east" to go east, and so on.  Additionally, some of the tougher locations in the game have hints to get you past the location.  Enter "hint" when in a room to get a hint on how to beat the room.</writing>
+    <status>normal</status>
+    <turnon>
+      <print>Nothing happened.</print>
+    </turnon>
+  </item>
+  <item>
+    <name>beer</name>
+    <owner>Bree</owner>
+    <writing>Great Lakes Brewing Company</writing>
+    <turnon>
+      <print>Congrats! You drank the beer!</print>
+    </turnon>
+  </item>
+  <item>
+   <name>blessing</name>
+   <owner>Rivendell</owner>
+   <status>normal</status>
+   <writing>This shall protect you in battle against the white wizard.</writing>
+   <turnon>
+    <print>You feel an immense power radiating inside of you.</print>
+   </turnon>
+  </item>
+  <item>
+   <name>key</name>
+   <status>normal</status>
+   <owner>box</owner>
+   <writing>Key to Isengard</writing>
+   <turnon>
+    <print>Nothing happened.</print>
+   </turnon>
+   <trigger>
+    <command>take key</command>
+    <condition>
+     <object>key</object>
+     <owner>box</owner>
+    </condition>
+    <print>I don't see a key. Could it be in the box?</print>
+   </trigger>
+  </item>
+  <item>
+   <name>sword</name>
+   <owner>gondor</owner>
+   <writing>Anduril, forged from Narsil and made for Aragorn, heir of Isildur.</writing>
+   <turnon>
+    <print>The sword gives off a faint glow</print>
+   </turnon>
+  </item>
+  <item>
+   <name>shield</name>
+   <owner>rohan</owner>
+   <status>normal</status>
+   <writing>The shiled is inscribed with a horse.</writing>
+   <turnon>
+    <print>Nothing happened.</print>
+   </turnon>
+  </item>
+  <item>
+   <name>lembas</name>
+   <owner>Rivendell</owner>
+   <status>uneaten</status>
+   <writing>Nothing written. Because, you know, it's bread.</writing>
+   <turnon>
+    <print>You eat the lembas and your strength is restored.</print>
+    <action>Update item lembas to eaten.</action>
+   </turnon>
+  </item>
+  <item>
+    <name>torch</name>
+    <status>off</status>
+    <owner>Bree</owner>
+    <writing>A torch to illuminate enemies.</writing>
+    <turnon>
+     <print>The room lights up to reveal a nazgul, one of Sauron's most feared servents.  It is blocking the way out of the tavern.</print>
+     <action>Update item torch to flame</action>
+    </turnon>
+    <trigger>
+     <command>activate torch</command>
+     <condition>
+      <object>torch</object>
+      <status>flame</status>
+     </condition>
+     <print>Torch is already on.</print>
+    </trigger>
+    <trigger>
+     <command>use torch</command>
+     <condition>
+      <object>torch</object>
+      <status>flame</status>
+     </condition>
+     <print>Torch is already on.</print>
+    </trigger>
+  </item>
+  <item>
+   <name>flower</name>
+   <owner>Path</owner>
+   <writing>A magical herb with mystical powers of sedation.</writing>
+   <turnon>
+    <print>I like the way you think but you can't do it in this game.</print>
+   </turnon>
+  </item>
+  <item>
+   <name>hat</name>
+   <status>normal</status>
+   <owner>TheShire</owner>
+   <writing>Gucci</writing>
+   <turnon>
+    <print>You put the hat on.</print>
+    <action>Update item hat to head</action>
+   </turnon>
+  </item>
+  <item>
+   <name>orb</name>
+   <status>normal</status>
+   <owner>tower</owner>
+   <writing>Nothing written.</writing>
+   <turnon>
+    <print>You stare into the orb and find yourself staring directly at the Eye of Sauron.  You feel his peircing gaze.  You wave hello to him and shut off the orb.</print>
+   </turnon>
+  </item>
+  <container>
+    <name>present</name>
+    <item>ring</item>
+    <item>letter</item>
+  </container>
+  <container>
+   <name>box</name>
+   <item>key</item>
+   <trigger>
+    <command>open box</command>
+    <condition>
+     <object>henchman</object>
+     <status>alive</status>
+    </condition>
+    <print>As you reach for the box, one of Saruman's henchmen comes around the corner and sees you. Looks like you have to fight the henchman before entering the tower.</print>
+   </trigger>
+  </container>
+  <container>
+   <name>door</name>
+   <status>locked</status>
+   <trigger>
+    <command>open door</command>
+    <condition>
+     <object>key</object>
+     <owner>box</owner>
+    </condition>
+    <print>The door is locked. Looks like it needs a key.</print>
+   </trigger>
+  </container>
+  <container>
+   <name>gift</name>
+   <item>shield</item>
+   <trigger>
+    <command>take gift</command>
+    <condition>
+     <object>shield</object>
+     <owner>rohan</owner>
+    </condition>
+    <print>Let's open the gift first and see what's inside.</print>
+   </trigger>
+  </container>
+  <container>
+   <name>offering</name>
+   <item>sword</item>
+   <trigger>
+    <command>take offering</command>
+    <condition>
+     <object>sword</object>
+     <owner>gondor</owner>
+    </condition>
+    <print>Let's open the offering first and see what's inside.</print>
+   </trigger>
+  </container>
+  <creature>
+    <name>nazgul</name>
+    <status>alive</status>
+    <vulnerability>torch</vulnerability>
+    <attack>You charge at the nazgul with the torch, lighting its cloak on fire.  The nazgul shrieks and runs out of the tavern.</attack>
+  </creature>
+  <creature>
+   <name>saruman</name>
+   <status>alive</status>
+   <vulnerability>blessing</vulnerability>
+   <attack>A bright light shoots out and hits Saruman. With a shrill cry, he perishes.</attack>
+   <trigger>
+    <condition>
+     <object>saruman</object>
+     <status>dead</status>
+    </condition>
+    <print>An orb falls out of saruman's cloak.</print>
+    <action>Add item orb to Tower</action>
+   </trigger>
+  </creature>
+  <creature>
+   <name>orc</name>
+   <status>alive</status>
+   <vulnerability>sword</vulnerability>
+   <trigger>
+    <command>attack orc</command>
+    <condition>
+     <object>lembas</object>
+     <status>uneaten</status>
+    </condition>
+    <print>So hungry...don't have the strength to fight.</print>
+    </trigger>
+   <trigger>
+    <command>attack orc</command>
+    <condition>
+     <object>shield</object>
+     <owner>rohan</owner>
+    </condition>
+    <print>Attack that thing?? With no protection?? Forget about it.</print>
+   </trigger>
+   <attack>You lunge forward and sever the orc's head.</attack>
+  </creature>
+  <creature>
+   <name>gollum</name>
+   <status>alive</status>
+   <vulnerability>flower</vulnerability>
+   <attack>Gollum becomes inebriated by the magical scent of the flower. He no longer cares about reclaiming his ring and wanders back down the mountain to start a new ring-free life.</attack>
+  </creature>
+  <creature>
+   <name>henchman</name>
+   <status>alive</status>
+   <vulnerability>beer</vulnerability>
+   <attack>Knowing you have no hope to kill this thing, you offer it a beer which the henchman gladly accepts, as he has been on his feet all day and was looking for a drink. He takes his beer and walks away, leaving you be.</attack>
+  </creature> 
+</map>

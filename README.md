@@ -1,4 +1,1 @@
-# ZorkCppStart
-# ZorkCppWebStart
-# ZorkCppWebStart
-# ZorkGame
+This was my second project for my Software Development class.  It is a text-based adventure game modeled off of Zork.  I wrote the story of it in the theme of Lord of the Rings, one of my favorite book series.
